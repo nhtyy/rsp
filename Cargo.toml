@@ -126,4 +126,6 @@ rustdoc.all = "warn"
 [patch.crates-io]
 revm = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" }
 revm-primitives = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" }
-revm-interpreter = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" } 
+revm-interpreter = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" }
+sp1-zkvm = { git = "https://github.com/nhtyy/sp1", branch = "n/profiling-in-executor" }
+sp1-sdk = { git = "https://github.com/nhtyy/sp1", branch = "n/profiling-in-executor" }
