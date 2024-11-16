@@ -124,8 +124,8 @@ rust.rust_2018_idioms = { level = "deny", priority = -1 }
 rustdoc.all = "warn"
 
 [patch.crates-io]
-revm = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" }
-revm-primitives = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" }
-revm-interpreter = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis" }
+revm = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis3" }
+revm-primitives = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis3" }
+revm-interpreter = { git = "https://github.com/nhtyy/revm", branch = "n/skip_jumpdest_analysis3" }
 sp1-zkvm = { git = "https://github.com/nhtyy/sp1", branch = "n/profiling-in-executor" }
 sp1-sdk = { git = "https://github.com/nhtyy/sp1", branch = "n/profiling-in-executor" }

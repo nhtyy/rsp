@@ -2599,7 +2599,7 @@ dependencies = [
 [[package]]
 name = "revm"
 version = "14.0.1"
-source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis#0ffbeea30f20b27cebbbae0c97a81af9b626d190"
+source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis3#f874777998587a51366acb42fc35cf86fe04920c"
 dependencies = [
  "auto_impl",
  "cfg-if",
@@ -2613,7 +2613,7 @@ dependencies = [
 [[package]]
 name = "revm-interpreter"
 version = "10.0.1"
-source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis#0ffbeea30f20b27cebbbae0c97a81af9b626d190"
+source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis3#f874777998587a51366acb42fc35cf86fe04920c"
 dependencies = [
  "revm-primitives",
  "serde",
@@ -2622,7 +2622,7 @@ dependencies = [
 [[package]]
 name = "revm-precompile"
 version = "11.0.1"
-source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis#0ffbeea30f20b27cebbbae0c97a81af9b626d190"
+source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis3#f874777998587a51366acb42fc35cf86fe04920c"
 dependencies = [
  "aurora-engine-modexp",
  "c-kzg",
@@ -2641,7 +2641,7 @@ dependencies = [
 [[package]]
 name = "revm-primitives"
 version = "9.0.1"
-source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis#0ffbeea30f20b27cebbbae0c97a81af9b626d190"
+source = "git+https://github.com/nhtyy/revm?branch=n/skip_jumpdest_analysis3#f874777998587a51366acb42fc35cf86fe04920c"
 dependencies = [
  "alloy-eips",
  "alloy-primitives",
